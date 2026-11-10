@@ -270,14 +270,3 @@ The notebooks load the official [Exploration-Lab/CS-781-Capstone dataset](https:
 | 7 | 827 queries / 4,320 candidates | 118 queries / 1,023 candidates | 237 queries / 1,727 candidates |
 
 Dataset files, tokenized corpora, trained checkpoints, and tokenizer artifacts are not bundled in this repository.
-
-## Submission formats
-
-| Phase | JSON content | JSON member in ZIP |
-|---|---|---|
-| 2 | Document ID → list of `[start, end, entity_type]` spans | `prediction.json` |
-| 3 | Document ID → ordered list of sentence-role labels | `prediction.json` |
-| 4 | List of `{id, pred}` records, with integer `pred` equal to 0 or 1 | `submission.json` |
-| 5 | List of `{id, pred}` records, with a nonempty list of unique integer statute IDs | `prediction.json` |
-| 6 | List of `{id, summary}` records | `prediction.json` |
-| 7 | Query ID → exactly seven unique IDs from that split's candidate pool | `prediction.json` |
