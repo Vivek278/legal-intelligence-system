@@ -15,6 +15,6 @@ Each notebook includes configurable task-specific settings for training and infe
 
 ## Running
 
-See the root [README](../README.md) for prerequisites, checkpoint/tokenizer setup, dataset access, and results from the report.
+See the root [README](../README.md) for the project overview, datasets, complete results, and submission formats.
 
 Each experiment writes to its own output folder. Some submission files use shared filenames under the working directory; use separate sessions/working directories or download submissions after each run.
