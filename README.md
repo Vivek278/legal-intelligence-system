@@ -1,14 +1,14 @@
 # In-House Legal Intelligence System
 
-A CS781 capstone project by **Vivek Chandwani (241183), IIT Kanpur**, covering seven legal NLP tasks: foundation language modeling, entity extraction, rhetorical roles, judgment prediction, statute identification, summarization, and prior case retrieval.
+An Inh-House Legal Intelligence System covering seven legal NLP tasks: foundation language modeling, entity extraction, rhetorical roles, judgment prediction, statute identification, summarization, and prior case retrieval.
 
-The project trains legal-domain foundation models from random initialization and adapts them with full fine-tuning, LoRA, LoRMA, and knowledge distillation. Its central experiment is **Model 7**: three domain-specific replicas periodically consolidate their weights through DiLoCo into a single 110.10M-parameter backbone. The repository contains research notebooks for training and competition submissions; deployment remains future work.
+The project trains legal-domain foundation models from random initialization and adapts them with full fine-tuning, LoRA, LoRMA, and knowledge distillation. Its central experiment is **Model 7**: three domain-specific replicas periodically consolidate their weights through DiLoCo into a single 110.10M-parameter backbone. The repository contains notebooks for training and competition submissions.
 
-The [project report](CS781-CP-Vivek-Chandwani-241183-report.pdf) describes the methodology, results, error analysis, references, and LLM usage declaration.
+The [project report](CS781-CP-Vivek-Chandwani-241183-report.pdf) describes the methodology, results, error analysis, references and LLM usage declaration.
 
 ## Tasks and reported results
 
-Official scores and ranks are from report Table 1, recorded on **9 November 2026**. Winning model/method selections are from Tables 5–11.
+Official scores and ranks were recorded on **9 November 2026**.
 
 | Phase | Task | Best reported configuration | Primary metric | Score | Rank |
 |---|---|---|---|---:|---:|
